@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>quize</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="game.js"></script>
+</head>
+<body>
+	
+	<h1>Do you wanna test youself??</h1>
+	<div class="content">
+		<form id="quiz" name="quiz">
+ <p>1.Which sea creature has three hearts?</p>
+ <input type="text" name="que1"><br>
+  <p>2.How many bones does an adult human have?</p>
+  <input type="number" name="que2"><br>
+  <p>3.How many pedals do most modern pianos have? </p>
+   <input type="radio" name="que3" value="three" checked> three<br>
+  <input type="radio" name="que3" value="two"> two<br>
+  <input type="radio" name="que3" value="five"> five
+  <p>4.What is the Italian word for pie?</p>
+   <input type="radio"  name="que4" value="apple" checked> apple <br>
+  <input type="radio" name="que4" value="pumkin pie"> pumkin<br>
+  <input type="radio"  name="que4" value="pizza"> pizza
+  <p>5.What is one quarter of 1,000?</p>
+   <input type="radio" name="que5"  value="150" checked>150 <br>
+  <input type="radio" name="que5" value="250">250<br>
+  <input type="radio" name="que5" value="350">350
+  <p>6.When did the French Revolution end?  </p>
+   <input type="radio"  name="que6" value="1799" checked>1799 <br>
+  <input type="radio"  name="que6" value="1899"> 1899<br>
+  <input type="radio" name="que6" value="1999"> 1999
+  <p>7.I have a cake and a table named after me, and I'm used all round the world. What am I?</p>
+   <input type="radio" name="que7" value="tea" checked> tea<br>
+  <input type="radio" name="que7" value="coffee">coffee <br>
+  <input type="radio"  name="que7" value="milk">milk<br>
+  <br>
+ <input id ="button" type="button" value ="i am finished" onclick="check()">
+
+</form>
+<div id="after_submit">
+	<p id="number_correct"></p>
+	<p id="messages"></p>
+	<img id="pictures">
+</div>
+	</div>
+
+</body>
+</html>
